@@ -49,11 +49,11 @@ public class mainpulation_tablesaw_and_joinery {
            
            System.in.read();
 
-           System.out.println("Result of joining the 2 data frames : \n"+ df_employee.join(df_emp_year));
+           System.out.println("Result of joining the 2 data frames : \n"+ tb_employee.join(tb_emp_year));
             
            System.in.read();
 
-           System.out.println("Result of joining the 2 data frames on the name : \n"+ df_employee.joinOn(df_emp_year, 0));
+           System.out.println("Result of joining the 2 data frames on the name : \n"+ tb_employee.joinOn(tb_emp_year, 0));
                   
       
             //df.iterrows().forEachRemaining(System.out::println);
